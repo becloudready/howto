@@ -16,8 +16,16 @@ cat /proc/1/cgroup
 2:devices:/
 1:name=systemd:/
 ```
-#  Method 2
+##  Method 2
 
 ```
 grep -q ^flags.*\ hypervisor\  /proc/cpuinfo && echo "This machine is a VM" || echo "This is Physical box"
+```
+
+## Method 3
+
+```
+sudo dmidecode -t system|grep 'Manufacturer\|Product'
+        Manufacturer: CentOS
+        Product Name: RobinK8sCloudNativePlatform
 ```
