@@ -1,5 +1,7 @@
 # Creating a Docker repo for image to be pushed
 Before start the build and push of Docker Image make sure to create a repo in your Docker Account and keep it private for the purpose of testing before making the release public.
+
+
 # Branch switch 
 When using Branches make suer to use the branch the your repo is in and change accordingly such as main or master brach etc.
 
