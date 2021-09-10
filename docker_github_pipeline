@@ -5,7 +5,7 @@ Before start the build and push of Docker Image make sure to create a repo in yo
 When using Branches make suer to use the branch the your repo is in and change accordingly such as main or master brach etc.
 
 # Docker Login Credentials 
-For Docker username and password make sure to put  LDOCKERHUB_USERNAME and DOCKERHUB_TOKEN  from Login to DockerHub section 
+For Docker username and password make sure to put  DOCKERHUB_USERNAME and DOCKERHUB_TOKEN  from Login to DockerHub section 
 in the Secrets sections of repositoy Settings. 
 
 # Puttig the Repo with tag in the build 
